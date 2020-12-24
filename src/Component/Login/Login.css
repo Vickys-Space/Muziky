@@ -1,0 +1,54 @@
+.login {
+  display: grid;
+  place-items: center;
+  /* background-color: rgb(251, 255, 2); */
+  /* background-image: url(https://images7.alphacoders.com/996/996873.jpg); */
+  outline: none;
+  /* background-color: black; */
+  background-clip: url(https://cdn.dribbble.com/users/1976233/screenshots/10744466/media/bb9e2d18de2fd5496da189130ba1871b.mp4);
+  height: 100vh;
+}
+
+.login > img {
+  width: 45%;
+  padding: 200px;
+  margin-top: 100px;
+  margin-left: 30px;
+  object-fit: contain;
+}
+
+.login > h1 {
+  color: rgb(250, 73, 42);
+  font-size: 8vh;
+  place-items: center;
+  padding: 55px;
+}
+
+.login > a {
+  padding: 20px;
+  margin-top: -500px;
+  margin-left: 25px;
+  /* color:whitesmoke; */
+  background-color: #1db954;
+  border-radius: 99px;
+  font-weight: 800;
+  /* text-decoration: none; this is used to remove the blue under line of link tag  */
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex: 10;
+}
+
+.login > a:hover {
+  color: yellow;
+  background-color: black;
+}
+
+.login > video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  /* transform: translate(-10%, -10%); */
+  z-index: -1;
+}

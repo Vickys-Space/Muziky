@@ -1,0 +1,94 @@
+.body {
+  flex: 0.9;
+  background: linear-gradient(rgb(91, 146, 197), rgb(15, 241, 83));
+  height: 100vh;
+  color: black;
+  padding: 20px;
+  overflow-y: overlay;
+  /*   
+  video styling
+  display: flex;
+  align-items: center;
+  height: 100vh; */
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body > video {
+  width: 100%;
+  object-fit: contain;
+  /* height: 100vh; */
+  z-index: 1;
+
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.body_info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.body_infoText {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.body_infoText > h2 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.body_infoText > p {
+  font-size: 14px;
+}
+
+.body_info > img {
+  object-fit: contain;
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 15px 10px 20px black;
+  min-height: 20vh;
+  max-height: 25vh;
+}
+
+.body_icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.body_icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.like {
+  color:black;
+}
+
+.like:hover {
+  color: red;
+  transition: transform 100ms ease-in-out;  
+  transform: scale(1.08) !important;
+}
+
+.body_shuffle {
+font-size: 80px !important;
+margin-left: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+color: black;
+}
+
+.body_shuffle:hover,
+.horzion:hover {
+  color: yellow;
+  transition: transform 100ms ease-in-out;  
+  transform: scale(1.08) !important;
+}
+
+.body_songs {
+  /* margin: 20px -30px; */
+}
